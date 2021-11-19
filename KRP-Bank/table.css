@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;500&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+h2{
+	font-size: 40px;
+}
+table{
+	letter-spacing: 1.2px;
+}
+td{
+	text-align: center;
+}
+thead{
+	background-color: black;
+}
+th{
+	color: white;
+}
+button{
+	border:none;
+	background: #d9d9d9;
+    transition: 1s;
+}
+button{
+    transition: 1.5s;
+  }
+  button:hover{
+    background-color:#616C6F;
+    color: white;
+  }
+@media only screen and (orientation: portrait){
+	*{
+		letter-spacing: 1px;
+	}
+}

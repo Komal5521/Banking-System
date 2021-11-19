@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* nav bar */
+.navigation .navbar-brand{
+    font-size: 2rem;
+    padding-left: 40px;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 0.5px;
+    word-spacing: 1px;
+}
+.nav-link{
+    font-weight: bold;
+    font-size: 20px;  
+}
